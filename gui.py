@@ -6,7 +6,7 @@ import os
 import io
 
 # ==================================================== Global Variables & Constants =======================================
-directory_path = r""  # !!!!! Change it to your desired directory !!!!!!!!
+directory_path = r"------!!!!!!-------"  # !!!!! Change it to your desired directory !!!!!!!!
 loaded_image = None
 resized_image = None
 inverted_image = None
@@ -31,12 +31,15 @@ BTN_STYLE = {"width": 22, "height": 2, "font": FONT, "bg": "#2c3e50", "fg": "whi
 LABEL_STYLE = {"font": FONT, "bg": "#ecf0f1", "anchor": "w"}
 
 # ================================== Functions ========================================================================
-def update_original_size_label():
-    if loaded_image:
+def update_original_size_label(custom_text=None):
+    if custom_text:
+        original_size_label.config(text=custom_text)
+    elif loaded_image:
         size = loaded_image.size
         original_size_label.config(text=f"Original Size: {size[0]} x {size[1]}")
     else:
-        original_size_label.config(text="No image loaded.") 
+        original_size_label.config(text="No image loaded.")
+
 
 def browse_images():
     global loaded_image
