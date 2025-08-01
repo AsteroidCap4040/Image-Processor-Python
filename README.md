@@ -35,6 +35,7 @@ A professional-grade desktop application built using **Python's Tkinter** and **
 ---
 
 ## Screenshots
-<img width="605" height="451" alt="Screenshot 2025-08-02 020540" src="https://github.com/user-attachments/assets/d97a4d42-79fe-419f-8d2b-fe9733d77ec4" />
-<img width="829" height="476" alt="Screenshot 2025-08-02 020823" src="https://github.com/user-attachments/assets/56f577dc-e030-46c5-8325-c07e453c32a9" />
-<img width="794" height="449" alt="Screenshot 2025-08-02 020729" src="https://github.com/user-attachments/assets/357fbaf2-d120-41d2-b117-aad0b22c0ced" />
+<img width="605" height="451" alt="Screenshot 2025-08-02 020540" src="https://github.com/user-attachments/assets/2431d476-b5eb-4932-9d4c-87f8cafc4c73" />
+<img width="794" height="449" alt="Screenshot 2025-08-02 020729" src="https://github.com/user-attachments/assets/110b5954-0097-44ec-9481-ddf16ce29381" />
+<img width="829" height="476" alt="Screenshot 2025-08-02 020823" src="https://github.com/user-attachments/assets/c90b9957-ad24-4b0c-8ef5-9bee7c19746f" />
+
