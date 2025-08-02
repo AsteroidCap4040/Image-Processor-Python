@@ -34,6 +34,14 @@ A professional-grade desktop application built using **Python's Tkinter** and **
 
 ---
 
+## Executable file
+
+1. **Run the command in the project folder**
+   ```bash
+   python -m PyInstaller --noconsole --onefile gui.py
+
+---
+
 ## Screenshots
 <img width="605" height="451" alt="Screenshot 2025-08-02 020540" src="https://github.com/user-attachments/assets/2431d476-b5eb-4932-9d4c-87f8cafc4c73" />
 <img width="794" height="449" alt="Screenshot 2025-08-02 020729" src="https://github.com/user-attachments/assets/110b5954-0097-44ec-9481-ddf16ce29381" />
